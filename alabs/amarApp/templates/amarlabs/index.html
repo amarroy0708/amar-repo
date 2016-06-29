@@ -1,0 +1,514 @@
+{% load static from staticfiles %}
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Amarlab.com | Website Designing | Moblie Application | Web Application and Development | Technology Expertise in Python,Django,Nodejs,Mongodb,Redis,Solar,Rest API,Mysql,Bootstrap,CSS3,HTML5,Ajax,Jquery,Javascript,Android">
+    <meta name="author" content="">
+
+    <title>Amarlab.com | Website Designing | Moblie Application | Web Application and Development | Technology Expertise in Python,Django,Nodejs,Mongodb,Redis,Solar,Rest API,Mysql,Bootstrap,CSS3,HTML5,Ajax,Jquery,Javascript,Android</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="{% static "css/font-awesome.min.css" %}" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	
+    <!-- Custom CSS-->
+    <link href="{% static "css/general.css" %}" rel="stylesheet">
+	
+	 <!-- Owl-Carousel -->
+    <link href="{% static "css/custom.css" %}" rel="stylesheet">
+	<link href="{% static "css/owl.carousel.css" %}" rel="stylesheet">
+    <link href="{% static "css/owl.theme.css" %}" rel="stylesheet">
+	<link href="{% static "css/style.css" %}" rel="stylesheet">
+	<link href="{% static "css/animate.css" %}" rel="stylesheet">
+
+	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="{% static "css/magnific-popup.css" %}"> 
+	
+	<script src="{% static "js/modernizr-2.8.3.min.js" %}"></script>  
+	<link href="{% static "css/jquery-form-validator.css" %}"rel="stylesheet">
+	<link href="{% static "css/pnotify.custom.min.css" %}" rel="stylesheet">
+	<!-- Modernizr /-->
+	<!--[if IE 9]>
+		<script src="js/PIE_IE9.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/PIE_IE678.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="home">
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	<!-- FullScreen -->
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Amarlab.com</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">We are creating robot for you that solved your problem! <br/></h3>
+			<h4>We belive better application build better businesses.</h4>
+			
+			<ul class="list-inline intro-social-buttons">
+				<li><a href="#about" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">About US</span></a>
+				</li>
+				<li id="download" ><a href="#contact" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Contact US</span></a>
+				</li>
+			</ul>
+		</div>    
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#about"> <img class="img_scroll" src="{% static "img/icon/circle.png" %}" %}" alt=""> </a>
+			</div>
+		</div>
+    </div>
+	
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">Amarlab.com</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+				    <li class="menuItem"><a href="#home">Home</a></li>
+					<li class="menuItem"><a href="#about">About US</a></li>
+					<li class="menuItem"><a href="#stack">Technology Expertise</a></li>
+					<li class="menuItem"><a href="#services">Services</a></li>
+					<li class="menuItem"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		   
+		</div>
+	</nav> 
+	
+	<!-- about -->
+	<div id="about" class="content-section-b" style="border-top: 0">
+		<div class="container">
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h3>Welcome to Amarlab.com</h2>
+				<p class="lead" style="margin-top:2%">Amarlab.com is a new class of software concern committed to catalyzing the competenceand competitiveness of its clients by helping them succeed through the power of information technology.We have varied andextensive expertise in software development,web portal development, applicationsoftware development, etc.</p>
+				
+			</div>
+			<div class="row">
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<i class="rotate fa fa-users fa-4x" aria-hidden="true"></i>
+				  <!-- <img class="rotate fa fa-connectdevelop"  alt="Generic placeholder image"> -->
+				  <h3>Creative Concept</h3>
+				  <p class="lead">We will convert your dream idea into reality and make you life easy.</p>
+
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<i class="rotate fa fa-desktop fa-4x" aria-hidden="true"></i>
+				   <h3>Interface Design</h3>
+				   <p class="lead">Full Responsive Design that will support in all kind of device</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<i class="rotate fa fa-connectdevelop fa-4x" aria-hidden="true"></i>
+				   <h3>Strategy</h3>
+					<p class="lead">We will work togather with proper roadmap and follow agile method.</p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+				
+			<!-- <div class="row tworow"> -->
+			
+				<!-- <div class="col-sm-4  wow fadeInDown text-center">
+				  <img class="rotate" src="static/img/icon/laptop.svg" alt="Generic placeholder image">
+				  <h3>Business Solution</h3>
+				  <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				<!-- </div> -->
+				
+				<!-- <div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="static/img/icon/map.svg" alt="Generic placeholder image">
+				   <h3>Google</h3>
+				   <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				<!-- </div> -->
+				
+				<!-- <div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="static/img/icon/browser.svg" alt="Generic placeholder image">
+				   <h3>Bootstrap</h3>
+				 <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p> -->
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				<!-- </div>
+				
+			</div> -->
+			<!-- /.row -->
+		</div>
+	</div>
+	
+	<!-- Stack -->
+	<div id="stack" class="content-section-a">
+        <div class="container">
+          <div class="row" >
+			 <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
+				<h3>Technology Expertise</h3>
+				<p class="lead" style="margin-top:0">We are master in below technology and hope we can solve your problem</p>
+			 </div>
+		  </div>
+		    <div class="row wow bounceInUp" >
+              <div id="owl-demo" class="owl-carousel">
+				
+				<a href="{% static "img/slide/python-logo.jpg" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/python-logo.jpg" %}" alt="Owl Image">
+					</div>
+				</a>
+				
+               <a href="{% static "img/slide/django-logo.png" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/django-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+				
+				<a href="{% static "img/slide/nodejs-logo.png" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/nodejs-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+				
+				<a href="{% static "img/slide/mongodb-logo.jpg" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/mongodb-logo.jpg" %}" alt="Owl Image">
+					</div>
+				</a>
+
+					<a href="{% static "img/slide/php-logo.png" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/php-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+
+					<a href="{% static "img/slide/nginx-logo.png" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/nginx-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+
+					<a href="{% static "img/slide/android-logo.png" %}"class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/android-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+
+					<a href="{% static "img/slide/aws-logo.png" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/aws-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+
+					<a href="{% static "img/slide/do-logo.png" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/do-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+
+				<a href="{% static "img/slide/mysql-logo.png" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/mysql-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+
+				<a href="{% static "img/slide/redis-logo.png" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/redis-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+
+				<a href="{% static "img/slide/yii-logo.png" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/yii-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+
+				 <a href="{% static "img/slide/pyramid-logo.jpeg" %}"class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/pyramid-logo.jpeg" %}" alt="Owl Image">
+					</div>
+				</a>
+
+				
+               <a href="{% static "img/slide/css3-logo.jpg" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/css3-logo.jpg" %}" alt="Owl Image">
+					</div>
+				</a>
+				
+				<a href="{% static "img/slide/javascript-logo.png" %}" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="{% static "img/slide/javascript-logo.png" %}" alt="Owl Image">
+					</div>
+				</a>
+
+
+              </div>       
+          </div>
+        </div>
+
+
+	</div>
+
+
+	<!-- services -->
+	<div id="services" class="content-section-b">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h3>Services we Offer</h3>
+				<p class="lead" style="margin-top:0">Our core services are !!!</p>
+			 </div>
+			 
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate"> 
+							<i class="fa fa-rocket fa-4x "> </i> 
+						</div>
+						<div class="col-md-8 box-ct">
+							<h3> Analystic </h3>
+							<p>Today’s customer journeys are complex. It’s no secret that it takes many marketing touchpoints to connect with a customer, find a quality lead, or make a sale. 
+                            Better measurement is the key to making the most of today’s interconnected touchpoints. </p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate"> 
+						<i class="fa fa-sort-amount-asc  fa-4x "> </i> 
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h3> Strategy </h3>
+						<p> Our greatest strength and competitive edge is the reputation and success of the desktop software product. This product is the market leader in sales and consumer ratings. Our success will rely upon building on those strengths. We will also rely on our experience working with decision makers at the corporate level.</p> 
+					  </div>
+					</div>
+			  </div>
+		  </div>
+		  
+		  <div class="row tworow">
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate"> 
+							<i class="fa fa-map fa-4x "> </i> 
+						</div>
+						<div class="col-md-8 box-ct">
+							<h3> UX Design </h3>
+							<p>Our design goal to improve customer satisfaction and loyalty through the utility, ease of use, and pleasure provided in the interaction with a product</p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate"> 
+						<i class="fa fa-edit fa-4x "> </i> 
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h3> UI Design </h3>
+						<p>We can’t design experiences, but we can design for you.Our designing systems that offer a great experience to users.</p> 
+					  </div>
+					</div>
+			  </div>
+		  </div>
+          
+          <div class="row tworow">
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate"> 
+							<i class="fa fa-university fa-4x "> </i> 
+						</div>
+						<div class="col-md-8 box-ct">
+							<h3> Business solution </h3>
+							<p> Our business solutions that include strategic planning, technology evaluation and planning, and complex business information synthesis. We help businesses develop action-oriented strategies to expand domestic and international markets.</p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate"> 
+						<i class="fa fa-support fa-4x "> </i> 
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h3> Support </h3>
+						<p>We have dedicated 24 * 7 * 365 support team.Our team will develop the organization's service model first by defining the top level business functions.We show businesses how to restructure operations to meet new challenges or take advantage of emerging opportunities for growth.</p> 
+					  </div>
+					</div>
+			  </div>
+		  </div>
+
+		</div>
+	</div>
+	
+	
+	
+	<!-- Contact -->
+	<div id="contact" class="content-section-a">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h3>Contact Us</h3>
+				<p class="lead" style="margin-top:0">Let's Talk !!!</p>
+			</div>
+			
+			<form role="form" action="." method="post" id="contactForm">
+			{% csrf_token %}
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="InputName">Your Name</label>
+						<div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-user form-control-feedback"></i></span>
+						<input type="text" class="form-control" name="customer_name" id="customer_name" placeholder="Enter Name" data-validation="required" validation-error-msg="Name Cannot be blank" >						
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="InputEmail">Your Mobile No</label>
+						<div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-phone-square form-control-feedback"></i></span>
+							<input type="text" class="form-control numbersOnly" id="mobile_no" name="mobile_no" placeholder="Your Mobile No" data-validation="number" data-validation-error-msg="Enter valid phone no"  >
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="InputEmail">Your Email</label>
+						<div class="input-group">
+						    <span class="input-group-addon"><i class="fa fa-envelope-o form-control-feedback"></i></span>
+							<input type="email" class="form-control" id="email_id" name="email_id" placeholder="Enter Email" data-validation="email" data-validation-error-msg="Enter valid phone no">
+							
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="InputMessage">Message</label>
+						<div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-comments  form-control-feedback"></i></span>
+							<textarea name="customer_message" id="customer_message" class="form-control prevent_cut_copy_paste" rows="5" data-validation="required" validation-error-msg="Message cannot be blank"></textarea>
+							
+						</div>
+					</div>
+
+					<input type="submit" name="submit" id="contactSubmit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+				</div>
+			</form>
+			
+			<hr class="featurette-divider hidden-lg">
+				<div class="col-md-5 col-md-push-1 address">
+					<address>
+					<h3>Office Location</h3>
+
+					<h3>Kolkata</h3>
+					<p class="lead">Nabamahajoti Lane,Nalta<br>
+					Purbasha<br>
+					Kokcata - 700028<br>
+					West Bengal <br/>
+					Landmark - Dumdum cantonment
+					Near durganar station,Safuipara
+					</p>
+					</address>
+
+					<h3>Bangalore</h3>
+					<p class="lead">#1/27 Cross<br>
+					Kilary Road<br>
+					Near Puja Medical <br/>
+					Bangalore - 560077<br>
+					Karnataka<br/>
+					</p>
+					</address>
+
+					<div><span class="email_info">Email : &nbsp;&nbsp; </span> <span class="emailid_info">info@amarlab.com</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!--footer start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-xs-12 col-sm-12 ">
+           	<div class="footer-title col-md-6 col-xs-12 col-sm-12">
+		        © Copyright Reserved By 
+		        <a href="http://amarlab.com/" class="footer_text">Amar Lab.com</a>	
+            </div> 
+
+            <div class="footer-title col-md-6 col-xs-12 col-sm-12">
+            	<li class="social"> 
+					<a href="https://www.facebook.com/amarlab.com/"><i class="fa fa-facebook-square fa-size" taget="_blank"> </i></a>
+					<a href="https://www.youtube.com/channel/UC66fk9dBuYBORTwdR_a-DAg" taget="_blank"><i class="fa fa-youtube-square fa-size"> </i> </a> 
+					<a href="https://plus.google.com/u/0/117505680157310830500/about" taget="_blank"><i class="fa fa-google-plus-square fa-size"> </i></a>
+					<a href="https://twitter.com/amarlab" target="_blank"><i class="fa fa-twitter-square fa-size"> </i> </a>
+				</li>
+            </div>
+
+          </div> 
+        </div>
+      </div>
+    </footer>
+    <!--footer end -->
+
+    <!-- JavaScript -->
+    <script src="{% static "js/jquery-1.10.2.js" %}"></script>
+    <script src="{% static "js/bootstrap.js" %}"></script>
+	<script src="{% static "js/owl.carousel.js" %}"></script>
+	<script src="{% static "js/jquery-form-validator.js" %}"></script>
+	<script src="{% static "js/pnotify.custom.min.js" %}"></script>
+	<script src="{% static "js/script.js" %}"></script>
+	<!-- StikyMenu -->
+	<script src="{% static "js/stickUp.min.js" %}"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	 $.ajaxSetup({
+              data: {csrfmiddlewaretoken: '{{ csrf_token }}' },
+              });
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="{% static "js/jquery.corner.js" %}"></script> 
+	<script src="{% static "js/wow.min.js" %}"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="{% static "js/classie.js" %}"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="{% static "js/jquery.magnific-popup.js" %}"></script> 
+
+	
+</body>
+</html>
