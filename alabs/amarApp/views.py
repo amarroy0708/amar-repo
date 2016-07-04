@@ -15,7 +15,9 @@ from django.views.decorators.csrf import csrf_exempt, csrf_protect
 from amarApp.models import ContactUs
 import logging
 logger = logging.getLogger(__name__)
+from django.views.decorators.cache import cache_page
 
+@cache_page(60 * 60 * 60)
 def index(request):
     """
     Amarlabs.in index page
